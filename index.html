@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sushi Master Challenge</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<!-- Pantalla de Inicio -->
+<div id="start-screen" class="screen">
+  <div class="start-container">
+    <img src="assets/img/chef.png" alt="Chef" class="chef-img">
+    <h1>Sushi Master Challenge</h1>
+    <div class="input-group">
+      <input type="text" id="player-input" placeholder="Tu nombre" required>
+      <button id="start-btn">Comenzar</button>
+    </div>
+  </div>
+</div>
+
+<!-- Pantalla del Juego -->
+<div id="game-screen" class="screen hidden">
+  <div class="game-container">
+    <header>
+      <h2>Bienvenido a Sushi Master, <span id="player-name"></span></h2>
+      <div class="stats">
+        <p>Puntos: <span id="score">0</span></p>
+        <p>Vidas: <span id="lives">3</span></p>
+        <p>Nivel: <span id="level">1</span></p>
+      </div>
+    </header>
+
+    <div class="game-content">
+      <div class="order-display">
+        <h3>Prepara este sushi:</h3>
+        <div id="current-order">
+          <img id="order-image" src="assets/img/ebinigiri.png" alt="Sushi a preparar">
+          <p id="order-name">Ebinigiri</p>
+        </div>
+      </div>
+
+      <div class="ingredients">
+        <h3>Selecciona los ingredientes:</h3>
+        <div class="ingredients-grid" id="ingredients"></div>
+      </div>
+
+      <div class="prepare-btn-container">
+        <button id="prepare-btn">Preparar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para feedback -->
+<div id="feedback-modal" class="modal hidden">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <div id="modal-message"></div>
+    <div id="remaining-lives"></div>
+    <button id="continue-btn" class="continue-btn">Continuar</button>
+  </div>
+</div>
+
+<!-- Modal de fin de juego -->
+<div id="gameover-modal" class="modal hidden">
+  <div class="modal-content">
+    <h2 id="gameover-title">¡Game Over!</h2>
+    <div id="gameover-message"></div>
+    <div class="button-group">
+      <button id="play-again-btn" class="modal-btn">Jugar de nuevo</button>
+      <button id="quit-btn" class="modal-btn">Salir</button>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  Desarrollado para fines académicos por <a href="https://github.com/MagdaIG" target="_blank">Magdalena Inalaf G.</a>
+</footer>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
