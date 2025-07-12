@@ -22,29 +22,50 @@ Este proyecto fue desarrollado con HTML, CSS, JavaScript y Bootstrap, simulando 
 
 ##  Estructura del proyecto
 
-.
 ├── index.html
+
 ├── README.md
+
 ├── .gitignore
+
 ├── assets
+
 │   ├── css
+
 │   │   └── styles.css
+
 │   ├── img
+
 │   │   ├── aguacate.png
+
 │   │   ├── alga.png
+
 │   │   ├── arroz.png
+
 │   │   ├── background.png
+
 │   │   ├── camaron.png
+
 │   │   ├── chef.png
+
 │   │   ├── ebinigiri.png
+
 │   │   ├── mayonesa.png
+
 │   │   ├── salmon.png
+
 │   │   ├── sushi_aguacate.png
+
 │   │   ├── sushi_chocolate.png
+
 │   │   ├── sushi_mayonesa.png
+
 │   │   └── sushi_salmon.png
+
 │   └── js
+
 │       └── script.js
+
 
 ## Instalación y ejecución
 
