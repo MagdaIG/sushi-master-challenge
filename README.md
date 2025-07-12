@@ -67,4 +67,3 @@ Proyecto desarrollado por **Magdalena Inalaf G.** como parte de su aprendizaje e
 - [GitHub](https://github.com/MagdaIG)
 - [Portafolio Web](https://inalaf.ca/)
 
-
